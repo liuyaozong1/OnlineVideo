@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		B1AC55C926798BBF0031CEDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AC55C826798BBF0031CEDB /* AppDelegate.swift */; };
-		B1AC55CB26798BBF0031CEDB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AC55CA26798BBF0031CEDB /* SceneDelegate.swift */; };
 		B1AC55CD26798BBF0031CEDB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AC55CC26798BBF0031CEDB /* ViewController.swift */; };
-		B1AC55D026798BBF0031CEDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1AC55CE26798BBF0031CEDB /* Main.storyboard */; };
 		B1AC55D226798BC00031CEDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1AC55D126798BC00031CEDB /* Assets.xcassets */; };
 		B1AC55D526798BC00031CEDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1AC55D326798BC00031CEDB /* LaunchScreen.storyboard */; };
 		B1AC55E026798BC00031CEDB /* OnlineVideoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AC55DF26798BC00031CEDB /* OnlineVideoTests.swift */; };
 		B1AC55EB26798BC00031CEDB /* OnlineVideoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AC55EA26798BC00031CEDB /* OnlineVideoUITests.swift */; };
+		B1AC55FA267990AC0031CEDB /* test.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B1AC55F9267990AC0031CEDB /* test.mp4 */; };
+		B1AC55FC2679951A0031CEDB /* test1.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = B1AC55FB2679951A0031CEDB /* test1.MP4 */; };
+		B1AC55FF267997D70031CEDB /* LYZPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AC55FE267997D70031CEDB /* LYZPlayerView.swift */; };
+		B1AC56012679D2B60031CEDB /* LYZVideoControllView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AC56002679D2B60031CEDB /* LYZVideoControllView.swift */; };
+		B1AC56032679E7BA0031CEDB /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AC56022679E7BA0031CEDB /* TestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +40,7 @@
 /* Begin PBXFileReference section */
 		B1AC55C526798BBF0031CEDB /* OnlineVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnlineVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1AC55C826798BBF0031CEDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B1AC55CA26798BBF0031CEDB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B1AC55CC26798BBF0031CEDB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B1AC55CF26798BBF0031CEDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B1AC55D126798BC00031CEDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1AC55D426798BC00031CEDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B1AC55D626798BC00031CEDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +50,11 @@
 		B1AC55E626798BC00031CEDB /* OnlineVideoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnlineVideoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1AC55EA26798BC00031CEDB /* OnlineVideoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineVideoUITests.swift; sourceTree = "<group>"; };
 		B1AC55EC26798BC00031CEDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1AC55F9267990AC0031CEDB /* test.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.mp4; sourceTree = "<group>"; };
+		B1AC55FB2679951A0031CEDB /* test1.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test1.MP4; sourceTree = "<group>"; };
+		B1AC55FE267997D70031CEDB /* LYZPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYZPlayerView.swift; sourceTree = "<group>"; };
+		B1AC56002679D2B60031CEDB /* LYZVideoControllView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYZVideoControllView.swift; sourceTree = "<group>"; };
+		B1AC56022679E7BA0031CEDB /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +105,14 @@
 		B1AC55C726798BBF0031CEDB /* OnlineVideo */ = {
 			isa = PBXGroup;
 			children = (
+				B1AC55FD267997C10031CEDB /* Video */,
+				B1AC55F8267990A10031CEDB /* Resource */,
 				B1AC55C826798BBF0031CEDB /* AppDelegate.swift */,
-				B1AC55CA26798BBF0031CEDB /* SceneDelegate.swift */,
 				B1AC55CC26798BBF0031CEDB /* ViewController.swift */,
-				B1AC55CE26798BBF0031CEDB /* Main.storyboard */,
 				B1AC55D126798BC00031CEDB /* Assets.xcassets */,
 				B1AC55D326798BC00031CEDB /* LaunchScreen.storyboard */,
 				B1AC55D626798BC00031CEDB /* Info.plist */,
+				B1AC56022679E7BA0031CEDB /* TestViewController.swift */,
 			);
 			path = OnlineVideo;
 			sourceTree = "<group>";
@@ -126,6 +133,24 @@
 				B1AC55EC26798BC00031CEDB /* Info.plist */,
 			);
 			path = OnlineVideoUITests;
+			sourceTree = "<group>";
+		};
+		B1AC55F8267990A10031CEDB /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				B1AC55FB2679951A0031CEDB /* test1.MP4 */,
+				B1AC55F9267990AC0031CEDB /* test.mp4 */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		B1AC55FD267997C10031CEDB /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				B1AC55FE267997D70031CEDB /* LYZPlayerView.swift */,
+				B1AC56002679D2B60031CEDB /* LYZVideoControllView.swift */,
+			);
+			path = Video;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +258,8 @@
 			files = (
 				B1AC55D526798BC00031CEDB /* LaunchScreen.storyboard in Resources */,
 				B1AC55D226798BC00031CEDB /* Assets.xcassets in Resources */,
-				B1AC55D026798BBF0031CEDB /* Main.storyboard in Resources */,
+				B1AC55FA267990AC0031CEDB /* test.mp4 in Resources */,
+				B1AC55FC2679951A0031CEDB /* test1.MP4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +284,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1AC56032679E7BA0031CEDB /* TestViewController.swift in Sources */,
 				B1AC55CD26798BBF0031CEDB /* ViewController.swift in Sources */,
+				B1AC55FF267997D70031CEDB /* LYZPlayerView.swift in Sources */,
 				B1AC55C926798BBF0031CEDB /* AppDelegate.swift in Sources */,
-				B1AC55CB26798BBF0031CEDB /* SceneDelegate.swift in Sources */,
+				B1AC56012679D2B60031CEDB /* LYZVideoControllView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +324,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B1AC55CE26798BBF0031CEDB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B1AC55CF26798BBF0031CEDB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B1AC55D326798BC00031CEDB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
