@@ -18,6 +18,7 @@
 		B1AC55FF267997D70031CEDB /* LYZPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AC55FE267997D70031CEDB /* LYZPlayerView.swift */; };
 		B1AC56012679D2B60031CEDB /* LYZVideoControllView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AC56002679D2B60031CEDB /* LYZVideoControllView.swift */; };
 		B1AC56032679E7BA0031CEDB /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AC56022679E7BA0031CEDB /* TestViewController.swift */; };
+		B1AC56052679F69B0031CEDB /* OnlineVideo.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B1AC56042679F69B0031CEDB /* OnlineVideo.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		B1AC55FE267997D70031CEDB /* LYZPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYZPlayerView.swift; sourceTree = "<group>"; };
 		B1AC56002679D2B60031CEDB /* LYZVideoControllView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYZVideoControllView.swift; sourceTree = "<group>"; };
 		B1AC56022679E7BA0031CEDB /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		B1AC56042679F69B0031CEDB /* OnlineVideo.podspec */ = {isa = PBXFileReference; lastKnownFileType = file; path = OnlineVideo.podspec; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				B1AC55D326798BC00031CEDB /* LaunchScreen.storyboard */,
 				B1AC55D626798BC00031CEDB /* Info.plist */,
 				B1AC56022679E7BA0031CEDB /* TestViewController.swift */,
+				B1AC56042679F69B0031CEDB /* OnlineVideo.podspec */,
 			);
 			path = OnlineVideo;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 				B1AC55D526798BC00031CEDB /* LaunchScreen.storyboard in Resources */,
 				B1AC55D226798BC00031CEDB /* Assets.xcassets in Resources */,
 				B1AC55FA267990AC0031CEDB /* test.mp4 in Resources */,
+				B1AC56052679F69B0031CEDB /* OnlineVideo.podspec in Resources */,
 				B1AC55FC2679951A0031CEDB /* test1.MP4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
