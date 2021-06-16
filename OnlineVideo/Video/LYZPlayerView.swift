@@ -27,7 +27,7 @@ class LYZPlayerView: UIView {
     }()
     
     lazy var loading: UIActivityIndicatorView = {
-        let view = UIActivityIndicatorView(style: UIActivityIndicatorView.Style.medium)
+        let view = UIActivityIndicatorView()
         view.hidesWhenStopped = true
         return view
     }()
