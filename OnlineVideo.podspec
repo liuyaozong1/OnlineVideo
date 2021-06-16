@@ -10,5 +10,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/liuyaozong1/OnlineVideo.git", :tag => "#{s.version}" }
   s.source_files        = 'OnlineVideo/Video/*.swift'
   s.ios.deployment_target = '11.0'
+  s.swift_version = '5.0'
   
 end
