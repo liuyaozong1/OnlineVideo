@@ -203,7 +203,7 @@ extension LYZPlayerView {
         playerEndBlock()
         if isRoop {
             //跳转到 0
-            player?.seek(to: CMTime(value: 0, timescale: 5))
+            player?.seek(to: CMTime(value: 0, timescale: 600))
             play()
         }
     }

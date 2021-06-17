@@ -69,8 +69,11 @@ class LYZVideoControllView: UIView {
         print("slider == \(slider.value)")
         let time: Float64 = Float64(self.totalTime)  * Float64(slider.value)
         print("当前跳转的时间是\(time)")
-        let cmtime: CMTime = CMTimeMakeWithSeconds(Float64(time), preferredTimescale: Int32(Int(1 * NSEC_PER_SEC)))
-        self.playerView?.player?.seek(to: cmtime, toleranceBefore: CMTime(value: 1, timescale: 1000), toleranceAfter: CMTime(value: 1, timescale: 1000))
+        let cmtime: CMTime = CMTime(value: CMTimeValue(time * 600), timescale: 600)
+        //需要使用下面的额方法进行定位, 后面两个参数设置容错范围
+        self.playerView?.player?.seek(to: cmtime, toleranceBefore: CMTime.zero, toleranceAfter: CMTime.zero)
+        
+   
     }
     
     @objc func sliderTouchDown(slider: UISlider) {
